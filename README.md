@@ -1,15 +1,15 @@
-UM BRAÇO EM 3D e com textura e com iluminação
-Modelos geométricos foram usados para criar o braço e cada parte
+UM BRAÇO EM 3D e com textura e com iluminação<br>
+Modelos geométricos foram usados para criar o braço e cada parte<br><br>
 
-Os dedos, Punho, Ombro e Cotovelo se mexem ao apertas as teclas do teclado
-C - todos os dedos
-T - poelegar
-R - indicador
-M - Anelar
-P - mindinho
+Os dedos, Punho, Ombro e Cotovelo se mexem ao apertas as teclas do teclado<br>
+C - todos os dedos<br>
+T - poelegar<br>
+R - indicador<br>
+M - Anelar<br>
+P - mindinho<br><br>
 
-E - cotovelo
-S - Ombro
-H - punho
+E - cotovelo<br>
+S - Ombro<br>
+H - punho<br><br>
 
 Segurando Shift faz as função ao contrário
