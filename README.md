@@ -1,4 +1,4 @@
-    UM BRAÇO EM 3D e com textura e com iluminação
+    		UM BRAÇO EM 3D e com textura e com iluminação
 		Modelos geométricos foram usados para criar o braço e cada parte
 		
 		Os dedos, Punho, Ombro e Cotovelo se mexem ao apertas as teclas do teclado
