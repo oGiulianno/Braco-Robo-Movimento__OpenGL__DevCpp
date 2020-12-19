@@ -1,7 +1,7 @@
 /***************************************
 
-braÁo
-braÁo.cpp
+bra√ßo
+bra√ßo.cpp
 
 Prof: Gustavo Vinhal
 
@@ -10,8 +10,8 @@ Alunos: GIULIANNO G LATORRACA
 		RAIANE PEREIRA ALCANTARA
 		
 		
-		UM BRA«O EM 3D e com textura de uma pele humana e com iluminaÁ„o
-		Modelos geom·tricos foram usados para criar o braÁo e cada parte
+		UM BRA√áO EM 3D e com textura de uma pele humana e com ilumina√ß√£o
+		Modelos geom√©tricos foram usados para criar o bra√ßo e cada parte
 		
 		Os dedos, Punho, Ombro e Cotovelo se mexem ao apertas as teclas do teclado
 		C - todos os dedos
@@ -24,7 +24,7 @@ Alunos: GIULIANNO G LATORRACA
 		S - Ombro
 		H - punho
 		
-		Segurando Shift faz as funÁ„o ao contr·rio		
+		Segurando Shift faz as fun√ß√£o ao contr√°rio		
 		
 
 ****************************************/
@@ -39,7 +39,7 @@ Alunos: GIULIANNO G LATORRACA
 
 using namespace std;
 
-//iniciando posiÁ„o
+//iniciando posi√ß√£o
 static int ombro = 0, cotovelo = 0, mao = 0, polegar = 0, apontar = 0, meio = 0, anelar = 0, mindinho = 0;
 
 //dedos
@@ -81,10 +81,10 @@ static int sWidth = 1000, sHeight = 1000;
     // textura modulo
     glTexEnvf( GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE );
 
-    // quando a textura È menor
+    // quando a textura √© menor
     glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER,
                      GL_LINEAR );
-    // quando a textura È maior
+    // quando a textura √© maior
     glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR );
 
     
@@ -196,7 +196,7 @@ void robotarm(void)
    glutSolidCube (1.0);
    glPopMatrix();
    
-   //m„o
+   //m√£o
    glTranslatef (1.0, 0.0, 0.0);
    glRotatef ((GLfloat) mao, 0.0, 0.0, 1.0);
    glTranslatef (0.25, 0.0, 0.0);
@@ -400,7 +400,7 @@ void keyboard (unsigned char key, int x, int y)
          cotovelo = (cotovelo - 5) % 360;
          glutPostRedisplay();
          break;
-      //m„o
+      //m√£o
       case 'h':
 	 if (mao < 90)
 	 mao = (mao + 5) % 360;
@@ -472,7 +472,7 @@ void keyboard (unsigned char key, int x, int y)
          glutPostRedisplay();
 	 break;
 
-      //toda a m„o
+      //toda a m√£o
       case 'c':
          if (polegar < 90)
          polegar = (polegar + 5) % 360;
@@ -541,7 +541,7 @@ int main(int argc, char** argv)
    glutInitDisplayMode (GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
    glutInitWindowSize (sWidth, sHeight); 
    glutInitWindowPosition (100, 100);
-   glutCreateWindow ("braÁo");
+   glutCreateWindow ("bra√ßo");
    init();
    glutDisplayFunc(display); 
    glutReshapeFunc(reshape);
